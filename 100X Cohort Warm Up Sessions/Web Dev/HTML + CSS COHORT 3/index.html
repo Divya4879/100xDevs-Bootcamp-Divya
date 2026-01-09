@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <navbar style="padding-top: 20px; padding-bottom: 20px;">
+        <span style="padding-left:36px; width:60%">
+        <a class="navbar-brand" href="#"><span style="position:relative;top:5px"><img src="vscode.svg" width="24"></span> &nbsp;&nbsp;Visual Studio Code</a>
+        <a class="link-button" href="#">Docs</a>
+        <a class="link-button"href="#">Updates</a>
+        <a class="link-button" href="#">Blog</a>
+        <a class="link-button" href="#">API</a>
+        <a class="link-button" href="#">Extensions</a>
+        <a class="link-button" href="#">MCP</a>
+        <a class="link-button" href="#">FAQ</a>
+        </span>
+
+        <span class="navbar-right" style="padding-right:32px">
+            <img src="theme-light.svg" width="20px" style="position:relative;top:0px">
+            <div class="input-group" style="padding:0 7px" role="presentation">
+				<span class="input-group-btn">
+                    <span class="btn search-icon-container" aria-hidden="true">
+                        <img class="search-icon-dark" src="search-dark.svg" alt="search-icon">
+                        
+                    </span>
+                </span>
+
+                <span class="search-shortcut-placeholder">Search Docs</span>
+                <span class="search-shortcut-overlay" style="opacity: 0.7;">Ctrl+Shift+P</span>
+			</div>
+            <button>Download</button>
+        </span>
+
+    </navbar>
+    
+    <div class="banner">
+        <p><a link href="#">Version 1.108</a> is now available! Read about the new features and fixes from December.</p>
+        <span aria-hidden="true" class="glyph-icon"></span>
+    </div>
+    <div class="hero">
+    <div style="display: flex; justify-content: center;">
+    <h1>The open source AI code editor</h1>
+    </div>
+
+    <div class="cta-button">
+        
+        <button  id="cta-button" type="button" class="link-button dlink" data-os="win" id="download-buttons-win">
+                            <svg viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg" height="22" width="22">
+                                <path d="m0 12.402 35.687-4.86.016 34.423-35.67.203zm35.67 33.529.028 34.453L.028 75.48.026 45.7zm4.326-39.025L87.314 0v41.527l-47.318.376zm47.329 39.349-.011 41.34-47.318-6.678-.066-34.739z" fill="black"></path>
+                            </svg>&nbsp;&nbsp;
+                            Download for Windows
+        </button>
+        <p class="alt-downloads"><span class="underlined">Web</span>, <span class="underlined">Insiders edition</span>, or <span class="underlined">other platforms</span></p>
+
+        <p class="terms">By using VS Code, you agree to its <span class="underlined">license</span> and <span class="underlined">privacy statement.</span></p>
+        </div>
+    
+
+    
+    <div style="display: flex; justify-content: center;">
+    <img src="content.png" width="84%" style="margin-top:2rem">
+    </div>
+    
+    </div>
+  
+
+    <div class="extra" style="margin-top:41rem;">
+        <div class="left">
+            <h2>Agent mode</h2>
+            <p>Tackle complex, multi-step tasks. Agent mode reads your codebase, suggests edits across files, runs terminal commands, 
+                and responds to compile or test failures — all in a loop until the job is done. 
+                Further refine agent mode to fit your team's workflows with VS Code extensions and Model Context Protocol (MCP) servers.
+            </p>
+
+
+            <a href="https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode" rel="noopener">Build with
+                        agent mode</a>
+        </div>
+        <img src="agent.png">
+    </div>
+</body>
+</html>
