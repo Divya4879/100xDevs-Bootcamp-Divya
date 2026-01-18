@@ -1,0 +1,41 @@
+*{
+    font-family:"Lato", sans-serif;
+}
+
+nav{
+    display:flex;
+    padding:1rem;
+    align-items: center;
+    justify-content: space-between;
+    gap:8px;
+}
+
+.left{
+    display:flex;
+    gap:2rem;
+}
+
+.font-bold{
+    font-weight:700;
+    font-size:1.25rem;
+    letter-spacing:-.025em;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+.text-red-600{
+    color:red;
+    font-weight:600;
+}
+
+nav a{
+    color:lab(11.0101% 14.3499 -42.1491);
+    text-decoration:inherit;
+    font-size:0.875rem;
+}
+
+.bottom{
+    position:relative;
+    top:5px;
+}
